@@ -75,5 +75,25 @@
           return;
         }
 
+        // Generate password based on user criteria
+        let chars = "";
+        if (includeLowercase) {
+          chars += lowercaseChars;
+        }
+        if (includeUppercase) {
+          chars += uppercaseChars;
+        }
+        if (includeNumeric) {
+          chars += numericChars;
+        }
+        if (includeSpecial) {
+          chars += specialChars;
+        }
+
+        let password = "";
+        for (let i = 0; i < length; i++) {
+          password += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+
   </body>
 </html>
