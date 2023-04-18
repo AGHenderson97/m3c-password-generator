@@ -1,5 +1,8 @@
 # m3c-password-generator
 
+Description:
+This week's Challenge requires you to create an application that an employee can use to generate a random password based on criteria they've selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. This week's coursework will teach you all the skills you need to succeed in this assignment.
+
 User Story:
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -21,3 +24,11 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+Link to deployed application: 
+https://aghenderson97.github.io/m3c-password-generator/
+
+Screenshot:
+![m3c-javascript-demo](https://user-images.githubusercontent.com/113946573/232653445-c7a2d70a-7d81-412b-aa14-545b5afc6c27.png)
+
+
