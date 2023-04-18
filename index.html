@@ -47,6 +47,33 @@
         const length = prompt(
           "Enter the desired length for your password (between 8 and 128 characters)"
         );
-        
+
+        const includeLowercase = confirm(
+          "Include lowercase characters in your password?"
+        );
+
+        const includeUppercase = confirm(
+          "Include uppercase characters in your password?"
+        );
+
+        const includeNumeric = confirm(
+          "Include numeric characters in your password?"
+        );
+
+        const includeSpecial = confirm(
+          "Include special characters in your password?"
+        );
+
+        // Validate user input
+        if (
+          isNaN(length) ||
+          length < 8 ||
+          length > 128 ||
+          !(includeLowercase || includeUppercase || includeNumeric || includeSpecial)
+        ) {
+          alert("Invalid input. Please try again.");
+          return;
+        }
+
   </body>
 </html>
