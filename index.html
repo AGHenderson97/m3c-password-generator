@@ -40,5 +40,13 @@
             // Get references to elements on the page
             const generateBtn = document.getElementById("generate");
       const passwordText = document.getElementById("password");
+
+      // Add event listener to generate button
+      generateBtn.addEventListener("click", () => {
+        // Prompt user for password criteria
+        const length = prompt(
+          "Enter the desired length for your password (between 8 and 128 characters)"
+        );
+        
   </body>
 </html>
